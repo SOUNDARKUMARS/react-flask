@@ -75,7 +75,7 @@ const EditModal = ({ user, setUser }) => {
         <ModalOverlay />
         {/* <form action="" onSubmit={() => handleCreateUser()}> */}
         <ModalContent>
-          <ModalHeader>Create your account</ModalHeader>
+          <ModalHeader>Edit Card</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
             <Flex alignItems={"center"} justifyContent={"center"} gap={4}>
