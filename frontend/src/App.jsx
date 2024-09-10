@@ -3,8 +3,7 @@ import React from "react";
 import UserGrid from "./components/UserGrid";
 import CreateUserModal from "./components/CreateUserModal";
 
-export const BASE_URL =
-  import.meta.env.MODE === "development" ? "http://127.0.0.1:5000/api" : "/api";
+export const BASE_URL = "https://43a3-103-25-44-74.ngrok-free.app/api";
 
 function App() {
   return (
